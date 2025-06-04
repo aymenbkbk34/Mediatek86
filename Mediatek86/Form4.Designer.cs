@@ -47,7 +47,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Valider";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.buttonValider_Click);
             // 
             // button2
             // 
@@ -57,7 +57,6 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Annuler";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -67,7 +66,6 @@
             this.label1.Size = new System.Drawing.Size(104, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Ajouter un personnel";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -77,7 +75,6 @@
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Service :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -96,7 +93,6 @@
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 5;
             this.label4.Text = "Prénom :";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox1
             // 
@@ -136,7 +132,6 @@
             this.Controls.Add(this.button1);
             this.Name = "Form4";
             this.Text = " Formulaire d\'ajout ou de modification";
-            this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
