@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Mediatek86
 {
-    public partial class Form1 : Form
+    public partial class Form4 : Form
     {
-        public Form1()
+        public Form4()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,12 +37,12 @@ namespace Mediatek86
 
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
 
         }
